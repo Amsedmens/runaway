@@ -88,7 +88,8 @@
             return a.f - b.f;
         });
     };
-    
+
+    //Чек общего пути вставить
     Pathfinder.prototype.findPath = function() {
         return this.path;
     };
